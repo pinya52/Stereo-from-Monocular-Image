@@ -6,7 +6,7 @@ In this projct, we surveyed some previous works and proposed our method to gener
 
 ## Image to Depth
 Due to limitation of CPU RAM size and the ability of GPU, this project use MiDaS-Small instead of MiDaS-Large which is a more accurate pretrained model. Then, attached MiDaS-Small with a self-built CNN model to generate depth.
-![image](picture or gif url)
+![image](compare/image2depth.png)
 
 ## Image Warpping
 Before warpping the images, we first processed the depth to perform an additional unlinear transform. After the preocessing, we combine Bilinear Interpolation and Backgoud Filling to warp the images.
