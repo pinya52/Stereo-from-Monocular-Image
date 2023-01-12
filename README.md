@@ -1,5 +1,5 @@
 # Stereo-from-Monocular-Image
-This repository ia a finalproject for 3D Computer Vision course in 2022 fall semester at National Taiwan University.
+This repository ia a final project for 3D Computer Vision course in 2022 fall semester at National Taiwan University.
 
 ## Description
 In this projct, we surveyed some previous works and proposed our method to generate stereo images from sequential monocular images. The synthesized stereo images can be used to run SLAM which provided rotation error closed to the error of original stereo image and better than that of monocular.
