@@ -11,10 +11,10 @@ Due to limitation of CPU RAM size and the ability of GPU, this project use MiDaS
 ## Image Warpping
 Before warpping the images, we first processed the depth to perform an additional unlinear transform. After the preocessing, we combine Bilinear Interpolation and Backgoud Filling to warp the images.
 ![image](compare/gif/groundtruth.gif)
-(Groudtruth stereo image)\n
+(Groudtruth stereo image)<br/>
 
 ![image](compare/gif/without_processing.gif)
-(Synthesized stereo image w/o processing)\n
+(Synthesized stereo image w/o processing)<br/>
 
 ![image](compare/gif/with_processing.gif)
 (Synthesized stereo image w/ processing)
